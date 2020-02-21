@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>496,830</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>496,917</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Weather_Forecast_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -132,7 +132,7 @@
                 <OutArgument x:TypeArguments="x:String">[Temparature]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="CloseWindow_1" WaitForReady="INTERACTIVE" />
+            <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="IE closed" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="CloseWindow_1" WaitForReady="INTERACTIVE" />
           </Sequence>
         </ActivityAction>
       </ui:OpenBrowser.Body>
